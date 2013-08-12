@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="model">
+ <class name="BookInfo" table="TBookInfo">
+  <id column="Id" name="BookId" type="int">
+   <generator class="identity"/>
+  </id>
+  <property column="BookName" generated="never" lazy="false"  name="BookName" type="string"/>
+  <property column="Author" generated="never" lazy="false" name="Author" type="string"/>
+  <property column="Publisher" generated="never" lazy="false" name="Publisher"/>
+  <property column="Category" generated="never" lazy="false" name="Category"/>
+  <property column="CreditValue" generated="never" lazy="false" name="CreditValue"/>
+  <property column="Path" generated="never" lazy="false" name="Path"/>
+  <property column="Comments" generated="never" lazy="false" name="Comments"/>
+ </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="dglb"
+  id="myeclipse.1375106065298"
+  context-root="/dglb"
+  j2ee-spec="6.0"
+  archive="dglb.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
